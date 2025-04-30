@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SwaggerSettings">
+    <remoteSpecificationUrls>
+      <UrlInfo>
+        <option name="urlString" value="config connection UNCAUGHT EXCEPTION!  Shutting down... Error Cannot find module 'express' Require stack: - /Users/ayman/Desktop/Informatik/JavaScript/Node/Udemy - Jonas Schmedtman/4-natours/starter/app.js - /Users/ayman/Desktop/Informatik/JavaScript/Node/Udemy - Jonas Schmedtman/4-natours/starter/server.js" />
+      </UrlInfo>
+    </remoteSpecificationUrls>
+  </component>
+</project>

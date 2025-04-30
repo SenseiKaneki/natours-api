@@ -1,0 +1,30 @@
+doctype html
+html
+    head
+        //- #{} is like the js ${} template string
+        //title Natours | #{tour.name}
+        //- css gets loaded, because each asset triggers its own http request
+        //- The href functions as a route
+        //- In app.js in line 31 we use middleware to define, that all the static files will be served from the public folder
+        block head
+            meta(charset='UTF-8')
+            meta(name='viewport' content='width=device-width, initial-scale=1.0')
+
+            link(href='https://fonts.googleapis.com/css?family=Lato:300,300i,700' rel='stylesheet')
+            link(rel='stylesheet' href='/css/style.css')
+            link(rel='shortcut icon' type='image/png' href='/img/favicon.png')
+
+            script(src='/js/axios.min.js')
+            script(type='module' src="/js/logout.js")
+
+            title Natours | #{title}
+    body
+        // HEADER
+        include _header
+
+        // CONTENT
+        block content
+            h1 This is a placeholder heading
+
+        // FOOTER
+        include _footer
